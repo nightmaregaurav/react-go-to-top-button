@@ -1,0 +1,40 @@
+{
+  "name": "@nightmaregaurav/react-go-to-top-button",
+  "version": "1.0.0",
+  "description": "Simple React component to show a go-to-top button on bottom right of the page.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nightmaregaurav/react-go-to-top-button.git"
+  },
+  "scripts": {
+    "clean": "rimraf dist/",
+    "copy-files": "copyfiles -u 1 src/*.css dist/",
+    "build": "npm run clean && tsc && npm run copy-files"
+  },
+  "keywords": [
+    "react-back-to-top-button",
+    "back-to-top-button",
+    "back-to-top",
+    "react-go-to-top-button",
+    "go-to-top-button",
+    "go-to-top"
+  ],
+  "author": "nightmaregaurav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nightmaregaurav/react-go-to-top-button/issues"
+  },
+  "homepage": "https://github.com/nightmaregaurav/react-go-to-top-button#readme",
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "copyfiles": "^2.4.1",
+    "react": "^18.3.1",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.3"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/types/index.d.ts"
+}
