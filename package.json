@@ -1,6 +1,6 @@
 {
   "name": "@nightmaregaurav/react-go-to-top-button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple React component to show a go-to-top button on bottom right of the page.",
   "repository": {
     "type": "git",
@@ -35,5 +35,6 @@
   "main": "dist/index.js",
   "files": [
     "dist"
-  ]
+  ],
+  "types": "dist/types/index.d.ts"
 }
