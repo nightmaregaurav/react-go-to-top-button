@@ -5,6 +5,8 @@
 ### Description
 React Go To Top Button is a simple and customizable go to top button for your react application.
 
+### Demo: [CodeSandbox](https://codesandbox.io/p/sandbox/d8vy29)
+
 ### Installation
 Install react-go-to-top-button
 ```bash
